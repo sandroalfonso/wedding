@@ -7,7 +7,7 @@ import gallery5 from '../assets/images/5.jpg'
 import gallery6 from '../assets/images/6.jpg'
 function Gallery () {
   return (
-    <div id='gallery' className='section-padding'>
+    <div id='giftregistry' className='section-padding'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>

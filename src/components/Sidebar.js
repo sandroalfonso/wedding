@@ -39,7 +39,7 @@ function Sidebar () {
               <a href='#gallery'>Gallery</a>
             </li>
             <li>
-              <a href='#whenwhere'>Gift Registry</a>
+              <a href='#giftregistry'>Gift Registry</a>
             </li>
             <li>
               <a href='#rsvp'>R.S.V.P</a>
