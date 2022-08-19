@@ -29,9 +29,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Ceremony</h4>
-                </div>
+                
               </div>
             </a>
           </div>
@@ -46,9 +44,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Party</h4>{' '}
-                </div>
+              
               </div>
             </a>
           </div>
@@ -63,9 +59,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Ceremony</h4>{' '}
-                </div>
+                
               </div>
             </a>
           </div>
@@ -80,9 +74,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Party</h4>{' '}
-                </div>
+               
               </div>
             </a>
           </div>
@@ -97,9 +89,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Ceremony</h4>{' '}
-                </div>
+               
               </div>
             </a>
           </div>
@@ -114,9 +104,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                <div className='gallery-detail'>
-                  <h4 className='mb-0'>Wedding Party</h4>{' '}
-                </div>
+                
               </div>
             </a>
           </div>
