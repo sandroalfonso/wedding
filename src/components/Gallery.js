@@ -19,7 +19,7 @@ function Gallery () {
       <div className='container'>
         <div className='row gallery-filter mt-3'>
           <div className='col-md-4 gallery-item ceremony'>
-            <a href='/' className='img-zoom'>
+            <a  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -34,7 +34,7 @@ function Gallery () {
             </a>
           </div>
           <div className='col-md-4 gallery-item party'>
-            <a href='/' className='img-zoom'>
+            <a  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -49,7 +49,7 @@ function Gallery () {
             </a>
           </div>
           <div className='col-md-4 gallery-item ceremony'>
-            <a href='/' className='img-zoom'>
+            <a  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -64,7 +64,7 @@ function Gallery () {
             </a>
           </div>
           <div className='col-md-4 gallery-item party'>
-            <a href='/' className='img-zoom'>
+            <a  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -79,7 +79,7 @@ function Gallery () {
             </a>
           </div>
           <div className='col-md-4 gallery-item ceremony'>
-            <a href='/' className='img-zoom'>
+            <a  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -94,7 +94,7 @@ function Gallery () {
             </a>
           </div>
           <div className='col-md-4 gallery-item party'>
-            <a href='/' className='img-zoom'>
+            <a  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}

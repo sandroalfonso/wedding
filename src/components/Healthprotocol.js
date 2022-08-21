@@ -10,7 +10,7 @@ function Healthprotocol () {
             <h2 className='raman-title'>Health Protocol</h2>
           </div>
         </div>
-        <div className='row bord-box bg-img' data-background='images/slider.jpg'>
+        <div className='row bord-box bg-img' data-background='images/1.jpg'>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>01</h2>
             <h6 className='title'>Title</h6>

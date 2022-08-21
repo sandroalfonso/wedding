@@ -1498,12 +1498,12 @@ body.slide .raman-nav-toggle {
     background-image: url(./assets/images/banner-2.jpg);
 }
 .footer2 {
-    padding: 1px 30px;
+    padding: 1px 25px;
     background: #faf8f7;
 }
 .footer2 img { 
     width: 90px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .footer2 h2,
 .footer2 h2 a {
@@ -1540,7 +1540,7 @@ body.slide .raman-nav-toggle {
 
 @media screen and (max-width: 768px) {
     .footer2 {
-        padding: 100px 30px 80px 30px;
+        padding: 0px 30px 20px 30px;
         text-align: center;
     }
 }
