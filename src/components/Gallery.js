@@ -19,7 +19,7 @@ function Gallery () {
       <div className='container'>
         <div className='row gallery-filter mt-3'>
           <div className='col-md-4 gallery-item ceremony'>
-            <a  className='img-zoom'>
+            <div className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -31,10 +31,10 @@ function Gallery () {
                 </div>
                 
               </div>
-            </a>
+            </div>
           </div>
           <div className='col-md-4 gallery-item party'>
-            <a  className='img-zoom'>
+            <div className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -46,10 +46,10 @@ function Gallery () {
                 </div>
               
               </div>
-            </a>
+            </div>
           </div>
           <div className='col-md-4 gallery-item ceremony'>
-            <a  className='img-zoom'>
+            <div  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -61,10 +61,10 @@ function Gallery () {
                 </div>
                 
               </div>
-            </a>
+            </div>
           </div>
           <div className='col-md-4 gallery-item party'>
-            <a  className='img-zoom'>
+            <div  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -76,10 +76,10 @@ function Gallery () {
                 </div>
                
               </div>
-            </a>
+            </div>
           </div>
           <div className='col-md-4 gallery-item ceremony'>
-            <a  className='img-zoom'>
+            <div  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -91,10 +91,10 @@ function Gallery () {
                 </div>
                
               </div>
-            </a>
+            </div>
           </div>
           <div className='col-md-4 gallery-item party'>
-            <a  className='img-zoom'>
+            <div  className='img-zoom'>
               <div className='gallery-box'>
                 <div className='gallery-img'>
                   {' '}
@@ -106,7 +106,7 @@ function Gallery () {
                 </div>
                 
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
