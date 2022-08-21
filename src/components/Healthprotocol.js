@@ -6,7 +6,7 @@ function Healthprotocol () {
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
-            <span className='raman-title-meta'>Wedding</span>
+            <span className='raman-title-meta'>Health</span>
             <h2 className='raman-title'>Health Protocol</h2>
           </div>
         </div>
