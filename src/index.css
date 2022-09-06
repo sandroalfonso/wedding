@@ -1545,5 +1545,9 @@ body.slide .raman-nav-toggle {
     }
 }
 
+.flex{
+    display: flex;
+}
+
 
 

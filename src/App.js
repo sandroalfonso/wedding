@@ -8,6 +8,7 @@ import Sidebar from './components/Sidebar';
 import Where from './components/Where';
 import Countdown from './components/Countdown';
 import GiftRegistry from './components/GiftRegistry';
+import GiftRegistry2 from './components/GiftRegistry2';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Healthprotocol />
         <Gallery />
         <GiftRegistry />
+        <GiftRegistry2/>
         <Where />
         <RSVP />
 

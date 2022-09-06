@@ -1,6 +1,26 @@
 import React from 'react'
+import { Component } from 'react/cjs/react.development';
+import emailjs from "emailjs-com"
 
-function RSVP () {
+
+class RSVP extends Component{
+
+  sendemail = event => {
+    event.preventDefault();
+    emailjs.sendForm('service_7d2c6gt', 'template_dwz5ur5', event.target, 'MCvP1ezzKhPrMxeQl')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      event.target.reset()
+  };
+
+  fileSelectedHandler = event => {
+    console.log(event.target.files[0]);
+  }
+
+  render(){
   return (
     <div
       id='rsvp'
@@ -12,31 +32,33 @@ function RSVP () {
             {' '}
             <h2 className='raman-title text-center'>R.S.V.P</h2>
             <br />
-            <form method='post' className='row'>
+            <form encType='multipart/form-data' onSubmit={this.sendemail} method="post" className='row'>
               <div className='col-md-12'>
                 <div className='form-group'>
                   <input
                     type='text'
                     className='form-control'
                     placeholder='Name'
+                    name='name'
                     required
                   />{' '}
                 </div>
               </div>
               <div className='col-md-12'>
                 <div className='form-group'>
-                  <input type='text' className='form-control' placeholder='Email' />{' '}
+                  <input type='text' className='form-control' placeholder='Email' name='email'/>{' '}
                 </div>
               </div>
-              <div className='col-md-12'>
+              {/* <div className='col-md-12'>
                 <div className='form-group'>
                   <input
                     type='text'
                     className='form-control'
                     placeholder='Guests'
+
                   />{' '}
                 </div>
-              </div>
+              </div> */}
               <div className='col-md-12'>
                 <div className='form-group'>
                   <textarea
@@ -46,12 +68,34 @@ function RSVP () {
                     rows='7'
                     className='form-control'
                     placeholder='Message'
+                  
                   ></textarea>
                 </div>
               </div>
+              
+              <div className='col-md-12'>
+              <div className='flex'>
+                <div className='form-group'>
+                <input type='radio' className='buttono' value='Yes' />Yes{' '}
+                <input type='radio' className='buttono' value='No' />No{' '}
+                </div>
+              </div>
+              </div>
+              {/* <div className='col-md-12'>
+                
+                  <input
+                    type='file'
+                    name = "file"
+                    onChange={this.fileSelectedHandler}
+                  />{' '}
+                
+              </div> */}
+
+
+
               <div className='col-md-12'>
                 <div className='form-group'>
-                  <input type='submit' className='btn buttono' value='SEND' />{' '}
+                  <input type='submit' className='btn buttono' value='Submit' />{' '}
                 </div>
               </div>
             </form>
@@ -60,6 +104,7 @@ function RSVP () {
       </div>
     </div>
   )
+}
 }
 
 export default RSVP
