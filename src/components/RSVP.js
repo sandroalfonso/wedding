@@ -1,6 +1,6 @@
 import React from 'react'
 import { Component } from 'react/cjs/react.development';
-import emailjs from "emailjs-com"
+// import emailjs from "emailjs-com"
 
 
 class RSVP extends Component{
