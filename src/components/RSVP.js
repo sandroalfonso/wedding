@@ -5,20 +5,20 @@ import emailjs from "emailjs-com"
 
 class RSVP extends Component{
 
-  sendemail = event => {
-    event.preventDefault();
-    emailjs.sendForm('service_7d2c6gt', 'template_dwz5ur5', event.target, 'MCvP1ezzKhPrMxeQl')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      event.target.reset()
-  };
+  // sendemail = event => {
+  //   event.preventDefault();
+  //   emailjs.sendForm('service_7d2c6gt', 'template_dwz5ur5', event.target, 'MCvP1ezzKhPrMxeQl')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  //     event.target.reset()
+  // };
 
-  fileSelectedHandler = event => {
-    console.log(event.target.files[0]);
-  }
+  // fileSelectedHandler = event => {
+  //   console.log(event.target.files[0]);
+  // }
 
   render(){
   return (
@@ -32,7 +32,7 @@ class RSVP extends Component{
             {' '}
             <h2 className='raman-title text-center'>R.S.V.P</h2>
             <br />
-            <form encType='multipart/form-data' onSubmit={this.sendemail} method="post" className='row'>
+            <form encType='multipart/form-data'  method="post" className='row'>
               <div className='col-md-12'>
                 <div className='form-group'>
                   <input
