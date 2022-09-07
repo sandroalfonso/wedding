@@ -1,6 +1,4 @@
 import React from 'react'
-import { Component } from 'react/cjs/react.development';
-// import emailjs from "emailjs-com"
 
 
 function RSVP () {
