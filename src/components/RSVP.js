@@ -3,24 +3,7 @@ import { Component } from 'react/cjs/react.development';
 // import emailjs from "emailjs-com"
 
 
-class RSVP extends Component{
-
-  // sendemail = event => {
-  //   event.preventDefault();
-  //   emailjs.sendForm('service_7d2c6gt', 'template_dwz5ur5', event.target, 'MCvP1ezzKhPrMxeQl')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  //     event.target.reset()
-  // };
-
-  // fileSelectedHandler = event => {
-  //   console.log(event.target.files[0]);
-  // }
-
-  render(){
+function RSVP () {
   return (
     <div
       id='rsvp'
@@ -49,16 +32,7 @@ class RSVP extends Component{
                   <input type='text' className='form-control' placeholder='Email' name='email'/>{' '}
                 </div>
               </div>
-              {/* <div className='col-md-12'>
-                <div className='form-group'>
-                  <input
-                    type='text'
-                    className='form-control'
-                    placeholder='Guests'
-
-                  />{' '}
-                </div>
-              </div> */}
+         
               <div className='col-md-12'>
                 <div className='form-group'>
                   <textarea
@@ -81,15 +55,6 @@ class RSVP extends Component{
                 </div>
               </div>
               </div>
-              {/* <div className='col-md-12'>
-                
-                  <input
-                    type='file'
-                    name = "file"
-                    onChange={this.fileSelectedHandler}
-                  />{' '}
-                
-              </div> */}
 
 
 
@@ -104,7 +69,6 @@ class RSVP extends Component{
       </div>
     </div>
   )
-}
 }
 
 export default RSVP
