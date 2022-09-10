@@ -13,28 +13,28 @@ function Healthprotocol () {
         <div className='row bord-box bg-img' data-background='images/1.jpg'>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>01</h2>
-            <h6 className='title'>Title</h6>
+            <h6 className='title'>Wear Face Mask</h6>
             <p>
-              text
+              
             </p>
           </div>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>02</h2>
-            <h6 className='title'>Title</h6>
+            <h6 className='title'>Temperature Check</h6>
             <p>
               text
             </p>
           </div>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>03</h2>
-            <h6 className='title'>Title</h6>
+            <h6 className='title'>Sanitize Hands</h6>
             <p>
               text
             </p>
           </div>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>04</h2>
-            <h6 className='title'>Title</h6>
+            <h6 className='title'>Vaccination Card</h6>
             <p>
               text
             </p>
