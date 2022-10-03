@@ -1,7 +1,13 @@
 import React from 'react'
-
-
+import Popup from './Popup'
+import {useState} from 'react'
+import SecondModal from './SecondModal';
 function RSVP () {
+
+  const [openModal, setOpenModal] = useState(false);
+
+  const[openSecondModal, setSecondModal] = useState(false);
+
   return (
     <div
       id='rsvp'
@@ -13,7 +19,24 @@ function RSVP () {
             {' '}
             <h2 className='raman-title text-center'>R.S.V.P</h2>
             <br />
-            <form encType='multipart/form-data'  method="post" className='row'>
+            <p>Will you attend?</p>
+            <div className='col-md-12'>
+      
+              <button onClick={() => {setOpenModal(true)}}>Yes</button>
+              
+              <button onClick={() => {setSecondModal(true)}}>No</button>
+
+            
+            {/* <button onClick={() => {
+              setOpenModal(true);
+            }} className='btn buttono' value='Yes' />{' '} */}
+            {/* <input type='submit' className='btn buttono' value='No' />{' '} */}
+            
+            </div>
+            {openModal && <Popup closeModal={setOpenModal}/>}
+            {openSecondModal && <SecondModal closeSecondModal={setSecondModal}/>}
+            
+            {/* <form encType='multipart/form-data'  method="post" className='row'>
               <div className='col-md-12'>
                 <div className='form-group'>
                   <input
@@ -61,7 +84,7 @@ function RSVP () {
                   <input type='submit' className='btn buttono' value='Submit' />{' '}
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

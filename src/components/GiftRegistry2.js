@@ -4,7 +4,7 @@ import contact from '../assets/images/contact.jpg'
 function GiftRegistry2 (){
     return(
         <div
-      id='rsvp'
+      id='continue'
       className='section-padding bg-img bg-fixed'
     >
       <div className='container'>

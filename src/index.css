@@ -830,7 +830,7 @@ body.slide .raman-nav-toggle {
     color: #fff;
 }
 .header.parallaxie {
-  background-image: url(./assets/images/exchanging-rings-wedding.jpg);
+  background-image: url(./assets/images/cover.jpg);
 }
 @media screen and (max-width: 991px) {
     .header {
@@ -1494,6 +1494,10 @@ body.slide .raman-nav-toggle {
 
 
 /* ===== Footer style ===== */
+#continue{
+    background-image: url(./assets/images/banner-2.jpg);
+}
+
 #rsvp {
     background-image: url(./assets/images/banner-2.jpg);
 }
@@ -1545,4 +1549,78 @@ body.slide .raman-nav-toggle {
     }
 }
 
+
+ .popupBackground{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#popup .popupContainer{
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.popupContainer .title{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleClosedBtn button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.popupContainer .body{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.popupContainer .footer{
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupContainer .footer button{
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn{
+    background-color: crimson;
+}
+
+.spacing{
+    padding: 5%;
+}
 
