@@ -44,10 +44,15 @@ function Sidebar () {
             </li>
 
             <li>
+              <a href='#hotels'>Accommodations</a>
+              
+            </li>
+
+            <li>
               <a href='#giftregistry'>Gift Registry</a>
             </li>
 
-            
+
             <li>
               <a href='#healthprotocol'>Reminders</a>
             </li>

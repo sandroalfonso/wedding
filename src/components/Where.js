@@ -22,12 +22,12 @@ function Where () {
               <img src={where1} alt='' />
             </div>
             <div className='edit-align content'>
-              <h5>Wedding Ceremony</h5>
+              <h5 className='raman-title-meta'>Ceremony</h5>
               <p>
-                <i className='ti-location-pin'></i> St. John Nepomucene Parish, Mojica, Alfonso, Cavite
+                <span className='where-p'>St. John Nepomucene Parish, Mojica, Alfonso, Cavite</span>
               </p>
               <p>
-                <i className='ti-time'></i> <span>Ceremony will start at 2pm</span>
+              <span className='where-p'>Ceremony will start at 2pm</span>
               </p>
             </div>
           </div>
@@ -37,12 +37,12 @@ function Where () {
               <img src={where2} alt='' />
             </div>
             <div className='edit-align content'>
-              <h5>Wedding Party</h5>
+              <h5 className='raman-title-meta'>Reception</h5>
               <p>
-                <i className='ti-location-pin'></i> 33 Magallanes Dr, Tagaytay, Cavite
+                <i className='ti-location-pin'></i> <span className='where-p'>33 Magallanes Dr, Tagaytay, Cavite</span>
               </p>
               <p>
-                <i className='ti-time'></i> <span>Cocktails to follow at 5pm</span>
+                <i className='ti-time'></i> <span className='where-p'>Cocktails to follow at 5pm</span>
               </p>
             </div>
           </div>

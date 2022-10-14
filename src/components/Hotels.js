@@ -5,7 +5,7 @@ import where4 from '../assets/images/wingate.jpg'
 
 function Hotels () {
   return (
-    <div id='whenwhere' className='whenwhere bg-pink'>
+    <div id='hotels' className='whenwhere bg-pink'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
@@ -23,19 +23,15 @@ function Hotels () {
               <img src={where3} alt='' />
             </div>
             <div className='edit-align content'>
-              <h5>Hotel 1</h5>
+              <h5>Summit Ridge, Tagaytay</h5>
               <p>
-                <i className='ti-direction-alt'></i> Summit Ridge, Tagaytay
+                <i className='ti-direction-alt'></i>
               </p>
               <p>
                 <i className='ti-direction'></i> Landline: (02) 8 397-0111 <br/>
                   Mobile (GLOBE): 09178887788<br/>
       
                   Mobile (SMART): 09988887788 
-              </p>
-
-              <p>
-              Note: To avail of the discounted rates, kindly mention that you are booking for De Leon - Alfonso wedding.
               </p>
             </div>
           </div>
@@ -47,9 +43,9 @@ function Hotels () {
               <img src={where4} alt='' />
             </div>
             <div className='edit-align content'>
-              <h5>Hotel 2</h5>
+              <h5>Tagaytay Wingate Manor</h5>
               <p>
-                <i className='ti-direction-alt'></i> Tagaytay Wingate Manor
+                <i className='ti-direction-alt'></i>
               </p>
               <p>
                 <i className='ti-direction'></i> Mobile (GLOBE): 09175688861<br/>
@@ -57,7 +53,7 @@ function Hotels () {
               </p>
 
 
-              <p>
+              <p className='edit-p'>
               Note: To avail of the discounted rates, kindly mention that you are booking for De Leon - Alfonso wedding.
               </p>
             </div>

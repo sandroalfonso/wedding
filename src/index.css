@@ -77,7 +77,7 @@ p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #888;
+    color: gray;
     margin: 0 0 20px;
 }
 /* lists */
@@ -1653,4 +1653,17 @@ body.slide .raman-nav-toggle {
 
 .edit-align{
     text-align: justify;
+}
+
+.edit-p{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.emphasized{
+    font-style: italic;
+}
+
+.where-p{
+    color: #000;
 }

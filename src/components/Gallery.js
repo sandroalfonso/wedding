@@ -29,7 +29,7 @@ function Gallery () {
                     alt=''
                   />{' '}
                   <div className='gallery-detail'>
-                    <p>#AMANDAsMONCHoice</p>
+                        <p>#AMANDAsMONCHoice</p>
                   </div>
                 </div>
                 

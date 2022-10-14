@@ -23,8 +23,8 @@ function Healthprotocol () {
             <h6 className='title'></h6>
             <p>
             Dress code: Strictly formal<br/>
-            Men: Barong (preferred)<br/>
-            Women: long gown
+            Gentlemen: Barong (preferred)<br/>
+            Ladies: Long gown
             </p>
           </div>
           <div className='edit-align col-md-4 item-box'>
@@ -32,7 +32,7 @@ function Healthprotocol () {
             <h6 className='title'></h6>
             <p>
             Help us document our special day by tagging us using our hashtag.
-#AMANDAsMONCHoice
+            <strong>#AMANDAsMONCHoice</strong>
             </p>
           </div>
           {/* <div className='col-md-3 item-box'>

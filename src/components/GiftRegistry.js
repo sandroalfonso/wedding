@@ -44,7 +44,8 @@ function GiftRegistry () {
               </li>
 
               <li>
-                Contact detail of Rustans Shangri-la: +639178984387
+                You may contact our gift registry advisor for assistance<br/>
+                <span className='emphasized'>+639178984387</span>
               </li>
             </p>
           </div>
