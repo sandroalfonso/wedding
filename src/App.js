@@ -9,24 +9,31 @@ import Where from './components/Where';
 import Countdown from './components/Countdown';
 import GiftRegistry from './components/GiftRegistry';
 import GiftRegistry2 from './components/GiftRegistry2';
+import Hotels from './components/Hotels';
+
 function App() {
   return (
     <>
       <Sidebar />
       <div id='raman-main'>
         <Header />
+        <Where />
+        <RSVP />
+        <Gallery />
+        <Hotels/>
+        <GiftRegistry />
+        <GiftRegistry2/>
+        
+        
+        
+        <Healthprotocol />
         
         <Countdown/>
         
         
-        <Healthprotocol />
-        <Gallery />
-        <GiftRegistry />
-        <GiftRegistry2/>
-        <Where />
-        <RSVP />
-
-        <Seeyou />
+        
+        
+        {/* <Seeyou /> */}
         <Footer />
       </div>
     </>

@@ -14,10 +14,7 @@ function GiftRegistry () {
             <h2 className='custom-font numb'>01</h2>
             <h6 className='title'>Check out couple's Gift Registry</h6>
             <p>
-              Request for the Gift list:
-              <li>Contact us via Email, Viber or SMS</li>
-              <li>Visit Wedding & Beyond Gift Registry of any branch near you</li>
-              <li>Ask for a copy of your Registrant's gift list</li>
+             
               <li>
                 <a className='download' onClick={() => {
                   fetch('giftreg.pdf').then(response => {
@@ -37,7 +34,7 @@ function GiftRegistry () {
               </li>
             </p>
           </div>
-          <div className='col-md-3 item-box'>
+          <div className='edit-align col-md-3 item-box'>
             <h2 className='custom-font numb'>02</h2>
             <h6 className='title'>Select and shop</h6>
             <p>
@@ -45,9 +42,13 @@ function GiftRegistry () {
                 registrant. With the assistance of registry's associates, you can shop in the comfort
                 of your own home.
               </li>
+
+              <li>
+                Contact detail of Rustans Shangri-la: +639178984387
+              </li>
             </p>
           </div>
-          <div className='col-md-3 item-box'>
+          <div className='edit-align col-md-3 item-box'>
             <h2 className='custom-font numb'>03</h2>
             <h6 className='title'>Payment</h6>
             <p>
@@ -56,7 +57,7 @@ function GiftRegistry () {
               <li>Pay in-store or at the curbside pick-up point if you choose to pick up your item(s)</li>
             </p>
           </div>
-          <div className='col-md-3 item-box'>
+          <div className='edit-align col-md-3 item-box'>
             <h2 className='custom-font numb'>04</h2>
             <h6 className='title'>Deliver</h6>
             <p>

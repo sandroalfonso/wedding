@@ -66,6 +66,11 @@ h6 {
     line-height: 1.25em;
     margin: 0 0 20px 0;
 }
+
+h7{
+    color: white;
+    font-family: 'CustomFont';
+}
 /* paragraph */
 p {
     font-family: 'Nunito Sans', sans-serif;
@@ -832,7 +837,7 @@ body.slide .raman-nav-toggle {
     color: #fff;
 }
 .header.parallaxie {
-  background-image: url(./assets/images/raman2.jpg);
+  background-image: url(./assets/images/home.jpg);
 }
 @media screen and (max-width: 991px) {
     .header {
@@ -840,6 +845,7 @@ body.slide .raman-nav-toggle {
     }
     .header .caption h1 {
         font-size: 40px;
+        padding-bottom: 50%;
     }
     .header .caption h5 {
         font-size: 12px;
@@ -1025,7 +1031,7 @@ body.slide .raman-nav-toggle {
 /* ======= Wedding Countdown style ======= */
 #countdown {
     text-align: center;
-    background-image: url(./assets/images/raman10.jpg);
+    background-image: url(./assets/images/main2.jpg);
 }
 #countdown .section-head {
     margin-bottom: 15px;
@@ -1244,7 +1250,7 @@ body.slide .raman-nav-toggle {
 
 /* ======= See You style ======= */
 .seeyou {
-  background-image: url(./assets/images/raman10.jpg);
+  background-image: url(./assets/images/main2.jpg);
 }
 .seeyou .section-head span {
     color: #fff;
@@ -1497,11 +1503,11 @@ body.slide .raman-nav-toggle {
 
 /* ===== Footer style ===== */
 #continue{
-    background-image: url(./assets/images/raman12.jpg);
+    background-image: url(./assets/images/main.jpg);
 }
 
 #rsvp {
-    background-image: url(./assets/images/raman12.jpg);
+    background-image: url(./assets/images/main.jpg);
 }
 .footer2 {
     padding: 1px 25px;
@@ -1627,6 +1633,7 @@ body.slide .raman-nav-toggle {
 }
 
 .download{
+    text-decoration: underline;
     cursor: pointer;
     color: blue;
 }
@@ -1634,4 +1641,16 @@ body.slide .raman-nav-toggle {
 .section-padding1{
     padding-top: 100px;
     
+}
+
+.text-to-top{
+    padding-bottom: 50%;
+}
+
+.edit-text{
+    text-transform: none;
+}
+
+.edit-align{
+    text-align: justify;
 }

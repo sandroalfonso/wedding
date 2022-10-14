@@ -7,12 +7,12 @@ import gallery5 from '../assets/images/banner.jpg'
 import gallery6 from '../assets/images/raman7.jpg'
 function Gallery () {
   return (
-    <div id='gallery' className='section-padding1'>
+    <div id='gallery' className='section-padding'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
             <span className='raman-title-meta'>Gallery</span>
-            <h2 className='raman-title'>Our Memories</h2>
+            <h2 className='raman-title'></h2>
           </div>
         </div>
       </div>

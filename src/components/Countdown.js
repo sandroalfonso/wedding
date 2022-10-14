@@ -35,7 +35,7 @@ const Countdown = () => {
         }());
     }, [])
   return (
-    <div className='section-padding'>
+    <div>
     <div
       id='countdown'
       className='section-padding bg-img bg-fixed'
@@ -44,7 +44,7 @@ const Countdown = () => {
       <div className='container'>
         <div className='row'>
           <div className='section-head col-md-12'>
-            {/* <h4>We will become a family in</h4> */}
+            <h7>We're so excited to celebrate our special day with you!</h7>
           </div>
         </div>
         <div className='row'>

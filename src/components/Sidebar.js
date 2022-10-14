@@ -29,28 +29,31 @@ function Sidebar () {
             <li>
               <a href='#home'>Home</a>
             </li>
+
             <li>
-              <a href='#countdown'>Countdown</a>
+                <a href='#whenwhere'>When & Where</a>
             </li>
+
             <li>
-              <a href='#healthprotocol'>Health Protocols</a>
+              <a href='#rsvp'>R.S.V.P</a>
             </li>
+
             <li>
               <a href='#gallery'>Gallery</a>
               
             </li>
+
             <li>
               <a href='#giftregistry'>Gift Registry</a>
             </li>
+
+            
             <li>
-                <a href='#whenwhere'>When & Where</a>
+              <a href='#healthprotocol'>Reminders</a>
             </li>
-            <li>
-              <a href='#rsvp'>R.S.V.P</a>
-            </li>
-            <li>
-              <a href='#whenwhere'>Zoom</a>
-            </li>
+
+          
+            
           </ul>
         </nav>
         <div className='footer1'>

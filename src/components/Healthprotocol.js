@@ -2,7 +2,7 @@ import React from 'react'
 
 function Healthprotocol () {
   return (
-    <div id='healthprotocol' className='healthprotocol bg-pink'>
+    <div id='healthprotocol' className='healthprotocol section-padding bg-pink'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
@@ -11,14 +11,14 @@ function Healthprotocol () {
           </div>
         </div>
         <div className='row bord-box bg-img' data-background='images/1.jpg'>
-          <div className='col-md-4 item-box'>
+          <div className='edit-align col-md-4 item-box'>
             <h2 className='custom-font numb'>01</h2>
             <h6 className='title'></h6>
             <p>
             For the safety and comfort of all our guests and in compliance with the authorities in our area, we respectfully request all guests to wear their face masks at all times.
             </p>
           </div>
-          <div className='col-md-4 item-box'>
+          <div className='edit-align col-md-4 item-box'>
             <h2 className='custom-font numb'>02</h2>
             <h6 className='title'></h6>
             <p>
@@ -27,7 +27,7 @@ function Healthprotocol () {
             Women: long gown
             </p>
           </div>
-          <div className='col-md-4 item-box'>
+          <div className='edit-align col-md-4 item-box'>
             <h2 className='custom-font numb'>03</h2>
             <h6 className='title'></h6>
             <p>

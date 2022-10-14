@@ -8,7 +8,7 @@ function Header () {
     >
       <div className='container'>
         <div className='row'>
-          <div className='col-md-12 text-center caption'>
+          <div className='col-md-12 text-center caption text-to-top'>
             <h1 className='animate-box' data-animate-effect='fadeInUp'>
               Ramon & Amanda
             </h1>

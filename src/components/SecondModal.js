@@ -20,37 +20,24 @@ function SecondModal ({closeSecondModal}){
     <div className='row justify-content-center'>
         {/* <button onClick={() => closeModal(false)}> X </button> */}
       <div className='raman-title'>
-        <h2>Message for the Bride & Groom</h2>
+        <h6>Don't worry. You can still virtually celebrate with us!</h6>
         <div className='col-md-12'>
-        <form onSubmit={sendEmail2} encType='multipart/form-data'  method="post" className='row'>
+       
             <div className='col-md-12'>
-                <div className='form-group'>
-                  <input type='text' className='form-control' placeholder='Name' name='no_name' required/>{' '}
-                  
-                </div>
-            </div>
+                <p className='edit-text'>
+                  <a className='download' href='https://us02web.zoom.us/j/81900825676?pwd=bGc1UnNtSm5qaHp4RlZWTk5qQzduQT09&fbclid=IwAR33x3t1Tn5Dqv3CBNDzn8_HyzfS2LAKiATe2zCLu290um9dptfPjTaktSY#success'>
+                    Zoom Link
+                  </a>
+                </p>
 
-            
-            <div className='col-md-12'>
-                <div className='form-group'>
-                  <textarea
-                    name='message'
-                    id='message'
-                    cols='30'
-                    rows='7'
-                    className='form-control'
-                    placeholder='Message'
-                    required
-                  ></textarea>
-                </div>
-              </div>
+                <p className='edit-text'>
+                  Passcode: Wedding
+                </p>
+            </div>
 
             <div className='footer'>
-           
-            <button type='submit'  value='Submit'>Submit</button>{' '}
-            <button type='submit'  value='Cancel' onClick={()=> closeSecondModal(false)}>CANCEL</button>{' '}
             </div>
-          </form>
+        
           
             
           </div>

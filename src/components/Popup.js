@@ -19,7 +19,7 @@ function Popup ({closeModal}){
       <div className='row justify-content-center'>
           {/* <button onClick={() => closeModal(false)}> X </button> */}
         <div className='raman-title'>
-          <h2>Name</h2>
+          <h2>Name of Attendees</h2>
           <div className='col-md-12'>
           <form onSubmit={sendEmail1} encType='multipart/form-data' method="post" className='row'>
               <div className='col-md-12'>
