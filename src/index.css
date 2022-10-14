@@ -475,7 +475,8 @@ input[type=radio]:checked:before {
     left: 0;
     overflow-y: scroll;
     z-index: 1001;
-    background: #E1D5C7;
+    background: whitesmoke;
+    /*#E1D5C7*/
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -592,6 +593,7 @@ input[type=radio]:checked:before {
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
+
 #raman-aside .raman-main-menu ul li.raman-active a {
     color: #BD945A;
 }
@@ -667,7 +669,7 @@ input[type=radio]:checked:before {
 }
 .raman-nav-toggle.active i::before,
 .raman-nav-toggle.active i::after {
-    background: #fff;
+    background: gray;
 }
 .raman-nav-toggle.dark.active i::before,
 .raman-nav-toggle.dark.active i::after {
@@ -690,7 +692,7 @@ input[type=radio]:checked:before {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #fff;
+    background: gray;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
@@ -701,7 +703,7 @@ input[type=radio]:checked:before {
     content: '';
     width: 20px;
     height: 1px;
-    background: #fff;
+    background: gray;
     position: absolute;
     left: 0;
     -webkit-transition: 0.2s;
@@ -766,7 +768,7 @@ input[type=radio]:checked:before {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background: #BD945A;
+    background: whitesmoke;
     margin: 15px 30px;
     border-radius: 50%;
 }
@@ -830,7 +832,7 @@ body.slide .raman-nav-toggle {
     color: #fff;
 }
 .header.parallaxie {
-  background-image: url(./assets/images/cover.jpg);
+  background-image: url(./assets/images/raman2.jpg);
 }
 @media screen and (max-width: 991px) {
     .header {
@@ -1023,7 +1025,7 @@ body.slide .raman-nav-toggle {
 /* ======= Wedding Countdown style ======= */
 #countdown {
     text-align: center;
-    background-image: url(./assets/images/banner-1.jpg);
+    background-image: url(./assets/images/raman10.jpg);
 }
 #countdown .section-head {
     margin-bottom: 15px;
@@ -1242,7 +1244,7 @@ body.slide .raman-nav-toggle {
 
 /* ======= See You style ======= */
 .seeyou {
-  background-image: url(./assets/images/banner-3.jpg);
+  background-image: url(./assets/images/raman10.jpg);
 }
 .seeyou .section-head span {
     color: #fff;
@@ -1272,7 +1274,7 @@ body.slide .raman-nav-toggle {
 
 /* =====  Gallery style  ===== */
 .gallery-menu li a {
-        cursor: pointer;
+    cursor: pointer;
     display: block;
     color: #888;
     margin-bottom: 5px;
@@ -1495,11 +1497,11 @@ body.slide .raman-nav-toggle {
 
 /* ===== Footer style ===== */
 #continue{
-    background-image: url(./assets/images/banner-2.jpg);
+    background-image: url(./assets/images/raman12.jpg);
 }
 
 #rsvp {
-    background-image: url(./assets/images/banner-2.jpg);
+    background-image: url(./assets/images/raman12.jpg);
 }
 .footer2 {
     padding: 1px 25px;
@@ -1624,3 +1626,12 @@ body.slide .raman-nav-toggle {
     padding: 5%;
 }
 
+.download{
+    cursor: pointer;
+    color: #BD945A;
+}
+
+.section-padding1{
+    padding-top: 100px;
+    
+}

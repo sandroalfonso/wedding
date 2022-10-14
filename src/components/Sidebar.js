@@ -2,12 +2,20 @@ import React, { useState } from 'react'
 import Logo from '../assets/images/logo.png'
 function Sidebar () {
   const [show, setShow] = useState(false);
-
+  const [close, setClose] = useState(true);
   const openMenu = (e) => {
     e.preventDefault();
     setShow(!show);
     document.body.classList.toggle('slide');
   }
+
+  const closeMenu = (e) => {
+    e.preventDefault();
+    setClose(close);
+    document.body.classList.toggle('slide');
+  }
+
+
 
   return (
     <>
@@ -33,19 +41,20 @@ function Sidebar () {
               <a href='#healthprotocol'>Health Protocols</a>
             </li>
             <li>
-              <a href='#whenwhere'>When & Where</a>
-            </li>
-            <li>
               <a href='#gallery'>Gallery</a>
+              
             </li>
             <li>
               <a href='#giftregistry'>Gift Registry</a>
             </li>
             <li>
+                <a href='#whenwhere'>When & Where</a>
+            </li>
+            <li>
               <a href='#rsvp'>R.S.V.P</a>
             </li>
             <li>
-              <a href='https://zoom.us/'>Zoom</a>
+              <a href='https://us02web.zoom.us/j/81900825676?pwd=bGc1UnNtSm5qaHp4RlZWTk5qQzduQT09&fbclid=IwAR31Q3BF6RW1PrDj8uUulGqpusf8p8gNsQLPsiOXjgLXQ0HWWd6uHSCVnok#success'>Zoom</a>
             </li>
           </ul>
         </nav>

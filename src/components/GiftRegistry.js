@@ -12,12 +12,29 @@ function GiftRegistry () {
         <div className='row bord-box bg-img' data-background='images/1.jpg'>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>01</h2>
-            <h6 className='title'>Get in touch</h6>
+            <h6 className='title'>Check out couple's Gift Registry</h6>
             <p>
               Request for the Gift list:
               <li>Contact us via Email, Viber or SMS</li>
-              <li>Visit Wedding & Beyonf Gift Registry of any branch near you</li>
+              <li>Visit Wedding & Beyond Gift Registry of any branch near you</li>
               <li>Ask for a copy of your Registrant's gift list</li>
+              <li>
+                <a className='download' onClick={() => {
+                  fetch('giftreg.pdf').then(response => {
+                    response.blob().then(blob=>{
+                      const fileURL = window.URL.createObjectURL(blob);
+                      let alink = document.createElement('a');
+                      alink.href = fileURL;
+                      alink.download = 'giftreg.pdf';
+                      alink.click();
+                    })
+                  })
+
+                }}>
+                  Download Gift List
+                </a>
+
+              </li>
             </p>
           </div>
           <div className='col-md-3 item-box'>

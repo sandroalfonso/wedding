@@ -1,13 +1,13 @@
 import React from 'react'
-import gallery1 from '../assets/images/1.jpg'
-import gallery2 from '../assets/images/2.jpg'
-import gallery3 from '../assets/images/3.jpg'
-import gallery4 from '../assets/images/4.jpg'
-import gallery5 from '../assets/images/5.jpg'
-import gallery6 from '../assets/images/6.jpg'
+import gallery1 from '../assets/images/raman6.jpg'
+import gallery2 from '../assets/images/raman4.jpg'
+import gallery3 from '../assets/images/raman5.jpg'
+import gallery4 from '../assets/images/raman3.jpg'
+import gallery5 from '../assets/images/banner.jpg'
+import gallery6 from '../assets/images/raman7.jpg'
 function Gallery () {
   return (
-    <div id='gallery' className='section-padding'>
+    <div id='gallery' className='section-padding1'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
@@ -28,11 +28,17 @@ function Gallery () {
                     className='img-fluid mx-auto d-block'
                     alt=''
                   />{' '}
+                  <div className='gallery-detail'>
+                    <p>#AMANDAsMONCHoice</p>
+                  </div>
                 </div>
                 
               </div>
             </div>
           </div>
+
+
+
           <div className='col-md-4 gallery-item party'>
             <div className='img-zoom'>
               <div className='gallery-box'>
@@ -44,7 +50,9 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-              
+                <div className='gallery-detail'>
+                    <p>#AMANDAsMONCHoice</p>
+                </div>
               </div>
             </div>
           </div>
@@ -59,7 +67,9 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                
+                <div className='gallery-detail'>
+                    <p>#AMANDAsMONCHoice</p>
+                </div>
               </div>
             </div>
           </div>
@@ -74,7 +84,9 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-               
+                <div className='gallery-detail'>
+                    <p>#AMANDAsMONCHoice</p>
+                </div>
               </div>
             </div>
           </div>
@@ -89,7 +101,9 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-               
+                <div className='gallery-detail'>
+                    <p>#AMANDAsMONCHoice</p>
+                </div>
               </div>
             </div>
           </div>
@@ -104,7 +118,9 @@ function Gallery () {
                     alt=''
                   />{' '}
                 </div>
-                
+                <div className='gallery-detail'>
+                    <p>#AMANDAsMONCHoice</p>
+                </div>
               </div>
             </div>
           </div>

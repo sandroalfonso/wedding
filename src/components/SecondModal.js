@@ -1,14 +1,36 @@
 import React  from 'react'
+import emailjs from 'emailjs-com'
 
 function SecondModal ({closeSecondModal}){
+
+  function sendEmail2(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_5oz0ah6', 'template_dwz5ur5', e.target, 'MCvP1ezzKhPrMxeQl')
+      .then((result)=>{
+        console.log(result.text);
+      }, (error)=>{
+        console.log(error.text);
+      });
+      e.target.reset()
+  }
+
   return (
-    <div className='container'>
+    
     <div className='row justify-content-center'>
         {/* <button onClick={() => closeModal(false)}> X </button> */}
       <div className='raman-title'>
-        <h2>Message for the Bride &</h2>
+        <h2>Message for the Bride & Groom</h2>
         <div className='col-md-12'>
-        <form encType='multipart/form-data'  method="post" className='row'>
+        <form onSubmit={sendEmail2} encType='multipart/form-data'  method="post" className='row'>
+            <div className='col-md-12'>
+                <div className='form-group'>
+                  <input type='text' className='form-control' placeholder='Name' name='no_name' required/>{' '}
+                  
+                </div>
+            </div>
+
+            
             <div className='col-md-12'>
                 <div className='form-group'>
                   <textarea
@@ -18,7 +40,7 @@ function SecondModal ({closeSecondModal}){
                     rows='7'
                     className='form-control'
                     placeholder='Message'
-                  
+                    required
                   ></textarea>
                 </div>
               </div>
@@ -34,7 +56,7 @@ function SecondModal ({closeSecondModal}){
           </div>
         </div>
       </div>
-    </div>
+    
   )
 }
 

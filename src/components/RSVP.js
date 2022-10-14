@@ -8,6 +8,8 @@ function RSVP () {
 
   const[openSecondModal, setSecondModal] = useState(false);
 
+
+
   return (
     <div
       id='rsvp'
@@ -20,11 +22,10 @@ function RSVP () {
             <h2 className='raman-title text-center'>R.S.V.P</h2>
             <br />
             <p>Will you attend?</p>
-            <div className='col-md-12'>
+            <div className='footer'>
       
-              <button onClick={() => {setOpenModal(true)}}>Yes</button>
-              
-              <button onClick={() => {setSecondModal(true)}}>No</button>
+              <button onClick={() => {setOpenModal(true); setSecondModal(false)}}>Yes</button>{' '}
+              <button onClick={() => {setSecondModal(true); setOpenModal(false)}}>No</button>{' '}
 
             
             {/* <button onClick={() => {
