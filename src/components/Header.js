@@ -11,7 +11,9 @@ function Header () {
           <div className='col-md-12 text-center caption text-to-top'>
             <h1 className='animate-box' data-animate-effect='fadeInUp'>
               Ramon & Amanda
+              <p>11.26.2022 | Tagaytay City</p>
             </h1>
+              
           </div>
         </div>
         <div className='row'>
