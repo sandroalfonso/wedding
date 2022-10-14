@@ -9,11 +9,6 @@ function Sidebar () {
     document.body.classList.toggle('slide');
   }
 
-  const closeMenu = (e) => {
-    e.preventDefault();
-    setClose(close);
-    document.body.classList.toggle('slide');
-  }
 
 
 
@@ -54,7 +49,7 @@ function Sidebar () {
               <a href='#rsvp'>R.S.V.P</a>
             </li>
             <li>
-              <a href='https://us02web.zoom.us/j/81900825676?pwd=bGc1UnNtSm5qaHp4RlZWTk5qQzduQT09&fbclid=IwAR31Q3BF6RW1PrDj8uUulGqpusf8p8gNsQLPsiOXjgLXQ0HWWd6uHSCVnok#success'>Zoom</a>
+              <a href='#whenwhere'>Zoom</a>
             </li>
           </ul>
         </nav>
