@@ -1,9 +1,7 @@
 import React from 'react'
 import where1 from '../assets/images/church.jpeg'
 import where2 from '../assets/images/glens.jpg'
-import where3 from '../assets/images/summit.jpg'
-import where4 from '../assets/images/wingate.jpg'
-import where5 from '../assets/images/zoom.jpg'
+
 function Where () {
   return (
     <div id='whenwhere' className='whenwhere section-padding bg-pink'>
