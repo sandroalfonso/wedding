@@ -38,7 +38,7 @@ const Countdown = () => {
     <div>
     <div
       id='countdown'
-      className='section-padding bg-img bg-fixed'
+      className='section-padding bg-img'
       data-background='images/banner-1.jpg'
     >
       <div className='container'>

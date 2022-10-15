@@ -13,7 +13,7 @@ function RSVP () {
   return (
     <div
       id='rsvp'
-      className='section-padding bg-img bg-fixed'
+      className='section-padding bg-img'
     >
       <div className='container'>
         <div className='row justify-content-center'>

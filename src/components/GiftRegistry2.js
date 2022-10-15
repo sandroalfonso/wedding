@@ -5,7 +5,7 @@ function GiftRegistry2 (){
     return(
         <div
       id='continue'
-      className='section-padding bg-img bg-fixed'
+      className='section-padding bg-img'
     >
       <div className='container'>
         <div className='row justify-content-center'>
