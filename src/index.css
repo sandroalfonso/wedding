@@ -1606,10 +1606,15 @@ body.slide .raman-nav-toggle {
     color: #000;
 }
 
-#home p{
+/* #home p{
     font-family: "CustomFont";
-}
+} */
 
 .button-padding{
     padding-top: 1%;
+}
+
+.edit-img{
+    height: auto;
+    max-width: 50%;
 }

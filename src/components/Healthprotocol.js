@@ -27,7 +27,7 @@ function Healthprotocol () {
             Ladies: Long gown
             <div className='whenwhere-img'>
               {' '}
-              <img src={Dresscode} alt='' />
+              <img className='edit-img' src={Dresscode} alt='' />
             </div>
             </p>
           </div>
