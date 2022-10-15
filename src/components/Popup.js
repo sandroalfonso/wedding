@@ -19,7 +19,7 @@ function Popup ({closeModal}){
       <div className='row justify-content-center'>
           {/* <button onClick={() => closeModal(false)}> X </button> */}
         <div className='raman-title'>
-          <h2>Name of Attendees</h2>
+          <h2 className='edit-text2'>Name of Attendees</h2>
           <div className='col-md-12'>
           <form onSubmit={sendEmail1} encType='multipart/form-data' method="post" className='row'>
               <div className='col-md-12'>
@@ -63,6 +63,7 @@ function Popup ({closeModal}){
 
               <div className='footer'>
               <input type='submit' className='btn buttono' value='Submit' />{' '}
+              <div className='button-padding'></div>
               <input type='submit' className='btn buttono' value='Cancel' onClick={()=> closeModal(false)}/>{' '}
               </div>
 

@@ -20,7 +20,7 @@ function SecondModal ({closeSecondModal}){
     <div className='row justify-content-center'>
         {/* <button onClick={() => closeModal(false)}> X </button> */}
       <div className='raman-title'>
-        <h6 className='edit-text'>Don't worry. You can still virtually celebrate with us!</h6>
+        <h6 className='edit-text2'>Don't worry! You can still celebrate with us virtually!</h6>
         <div className='col-md-12'>
        
             <div className='col-md-12'>
@@ -31,8 +31,13 @@ function SecondModal ({closeSecondModal}){
                 </p>
 
                 <p className='edit-text'>
+                  Meeting ID: 819 0082 5676
+                </p>
+                <p className='edit-text'>
                   Passcode: Wedding
                 </p>
+
+                
             </div>
 
             <div className='footer'>

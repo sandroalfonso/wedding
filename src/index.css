@@ -846,7 +846,7 @@ body.slide .raman-nav-toggle {
         background-position: center center;
     }
     .header .caption h1 {
-        font-size: 40px;
+        font-size: 30px;
         padding-bottom: 50%;
     }
     .header .caption h5 {
@@ -1388,7 +1388,7 @@ body.slide .raman-nav-toggle {
     font-size: 21px;
     margin-top: 10px;
     margin-bottom: 15px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .whenwhere .item .content p i {
     color: #BD945A;
@@ -1653,6 +1653,11 @@ body.slide .raman-nav-toggle {
     text-transform: none;
 }
 
+.edit-text2{
+    text-transform: none;
+    padding-top: 10%;
+}
+
 .edit-align{
     text-align: justify;
 }
@@ -1664,8 +1669,17 @@ body.slide .raman-nav-toggle {
 
 .emphasized{
     font-style: italic;
+    font-weight: bold;
 }
 
 .where-p{
     color: #000;
+}
+
+#home p{
+    font-family: "CustomFont";
+}
+
+.button-padding{
+    padding-top: 1%;
 }

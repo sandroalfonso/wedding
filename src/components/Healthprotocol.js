@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Dresscode from '../assets/images/dresscode.jpg'
 function Healthprotocol () {
   return (
     <div id='healthprotocol' className='healthprotocol section-padding bg-pink'>
@@ -25,6 +25,10 @@ function Healthprotocol () {
             Dress code: Strictly formal<br/>
             Gentlemen: Barong (preferred)<br/>
             Ladies: Long gown
+            <div className='whenwhere-img'>
+              {' '}
+              <img src={Dresscode} alt='' />
+            </div>
             </p>
           </div>
           <div className='edit-align col-md-4 item-box'>
@@ -32,7 +36,7 @@ function Healthprotocol () {
             <h6 className='title'></h6>
             <p>
             Help us document our special day by tagging us using our hashtag.
-            <strong>#AMANDAsMONCHoice</strong>
+            <span className='emphasized'>#AMANDAsMONCHoice</span>
             </p>
           </div>
           {/* <div className='col-md-3 item-box'>
