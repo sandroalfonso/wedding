@@ -37,7 +37,7 @@ function Where () {
             <div className='edit-align content'>
               <h5 className='raman-title-meta'>Reception</h5>
               <p>
-                <i className='ti-location-pin'></i> <span className='where-p'>33 Magallanes Dr, Tagaytay, Cavite</span>
+                <i className='ti-location-pin'></i> <span className='where-p'>33 Magallanes Drive, Tagaytay, Cavite</span>
               </p>
               <p>
                 <i className='ti-time'></i> <span className='where-p'>Cocktails to follow at 5pm</span>

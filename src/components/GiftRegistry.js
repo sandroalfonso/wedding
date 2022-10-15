@@ -10,7 +10,7 @@ function GiftRegistry () {
           </div>
         </div>
         <div className='row bord-box bg-img' data-background='images/1.jpg'>
-          <div className='col-md-3 item-box'>
+          <div className='col-md-2 item-box'>
             <h2 className='custom-font numb'>01</h2>
             <h6 className='title'>Check out couple's Gift Registry</h6>
             <p>
@@ -34,18 +34,13 @@ function GiftRegistry () {
               </li>
             </p>
           </div>
-          <div className='edit-align col-md-3 item-box'>
+          <div className='edit-align col-md-2 item-box'>
             <h2 className='custom-font numb'>02</h2>
             <h6 className='title'>Select and shop</h6>
             <p>
               <li>Select which item from the gift list you would like to purchase as a gift for your
                 registrant. With the assistance of registry's associates, you can shop in the comfort
                 of your own home.
-              </li>
-
-              <li>
-                You may contact our gift registry advisor for assistance<br/>
-                <span className='emphasized'>+639178984387</span>
               </li>
             </p>
           </div>
@@ -64,6 +59,17 @@ function GiftRegistry () {
             <p>
               <li>Drive by or book a third-party courier to pick-up your order at our designated curbside pick-up locations</li>
               <li>We can also deliver straight to your home or to the registrant's preferred delivery address</li>
+            </p>
+          </div>
+          <div className='edit-align col-md-2 item-box'>
+            <h2 className='custom-font numb'>05</h2>
+            <h6 className='title'>Questions</h6>
+            <p>
+              <li>
+                For questions and clarifications you may contact our gift registry advisor.<br/>
+                <span className='emphasized'>+639178984387</span>
+              </li>
+              
             </p>
           </div>
         </div>
