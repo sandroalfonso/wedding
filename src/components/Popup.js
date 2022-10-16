@@ -1,8 +1,11 @@
 import React, { useRef, useState } from 'react'
 import emailjs from "emailjs-com"
+import Confirm from './Confirm';
+
 
 function Popup ({closeModal}){
   const[done, setDone] = useState(false);
+  const[close, setClose] = useState(false);
   const formRef = useRef("");
 
   function sendEmail1(e){
@@ -66,10 +69,10 @@ function Popup ({closeModal}){
 
 
               <div className='footer'>
-              <input type='submit' className='btn buttono' value='Submit' />{' '}
+              <input type='submit' className='btn buttono' value='Submit' onSubmit={()=> {setDone(true); closeModal(false)}}/>{' '}
               <div className='button-padding'></div>
               <input type='submit' className='btn buttono' value='Cancel' onClick={()=> closeModal(false)}/>{' '}
-              {done && <p>Thank you for confirming. Your response has been sent to Ramon and Amanda</p>}
+              {/* {done && <p>Thank you for confirming. Your response has been sent to Ramon and Amanda</p>} */}
               </div>
 
               
@@ -78,6 +81,7 @@ function Popup ({closeModal}){
               
             </div>
           </div>
+          {done && <Confirm closeConfirm={setDone}/>}
           </div>
 
    

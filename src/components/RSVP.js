@@ -2,12 +2,15 @@ import React from 'react'
 import Popup from './Popup'
 import {useState} from 'react'
 import SecondModal from './SecondModal';
+import Confirm from './Confirm';
+
 function RSVP () {
 
   const [openModal, setOpenModal] = useState(false);
 
   const[openSecondModal, setSecondModal] = useState(false);
 
+  const[openConfirm, setConfirm] = useState(false);
 
 
   return (
@@ -36,7 +39,7 @@ function RSVP () {
             </div>
             {openModal && <Popup closeModal={setOpenModal}/>}
             {openSecondModal && <SecondModal closeSecondModal={setSecondModal}/>}
-            
+            {openConfirm && <Confirm closeConfirm={setConfirm}/>}
             {/* <form encType='multipart/form-data'  method="post" className='row'>
               <div className='col-md-12'>
                 <div className='form-group'>
