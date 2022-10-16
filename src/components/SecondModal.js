@@ -44,7 +44,7 @@ function SecondModal ({closeSecondModal}){
                     cols='30'
                     rows='7'
                     className='form-control'
-                    placeholder='Message'
+                    placeholder='Message to couple'
                     required
                   ></textarea>
                 </div>
