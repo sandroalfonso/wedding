@@ -24,7 +24,7 @@ function Healthprotocol () {
             <p>
             Dress code: Strictly formal<br/>
             Gentlemen: Barong (preferred)<br/>
-            Ladies: Long gown
+            Ladies: Long gown; Any color except white
             <div className='whenwhere-img'>
               {' '}
               <img className='edit-img' src={Dresscode} alt='' />
