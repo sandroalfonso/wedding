@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Logo from '../assets/images/logo.png'
 function Sidebar () {
   const [show, setShow] = useState(false);
-  const [close, setClose] = useState(true);
   const openMenu = (e) => {
     e.preventDefault();
     setShow(!show);

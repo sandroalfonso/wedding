@@ -5,7 +5,6 @@ import Confirm from './Confirm';
 
 function Popup ({closeModal}){
   const[done, setDone] = useState(false);
-  const[close, setClose] = useState(false);
   const formRef = useRef("");
 
   function sendEmail1(e){
