@@ -34,10 +34,6 @@ function Sidebar () {
             </li>
 
             <li>
-              <a href='#rsvp'>R.S.V.P</a>
-            </li>
-
-            <li>
               <a href='#gallery'>Gallery</a>
               
             </li>
@@ -54,6 +50,10 @@ function Sidebar () {
 
             <li>
               <a href='#healthprotocol'>Reminders</a>
+            </li>
+
+            <li>
+              <a href='#rsvp'>R.S.V.P</a>
             </li>
 
           
