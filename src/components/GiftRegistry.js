@@ -2,7 +2,7 @@ import React from 'react'
 
 function GiftRegistry () {
   return (
-    <div id='giftregistry' className='healthprotocol section-padding bg-pink'>
+    <div id='giftregistry' className='healthprotocol bg-pink'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>

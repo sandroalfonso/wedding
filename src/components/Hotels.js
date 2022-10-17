@@ -5,7 +5,7 @@ import where4 from '../assets/images/wingate.jpg'
 
 function Hotels () {
   return (
-    <div id='hotels' className='whenwhere bg-pink'>
+    <div id='hotels' className='whenwhere section-padding bg-pink'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>

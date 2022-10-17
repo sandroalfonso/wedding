@@ -12,14 +12,7 @@ function Healthprotocol () {
         </div>
         <div className='row bord-box bg-img' data-background='images/1.jpg'>
           <div className='edit-align col-md-4 item-box'>
-            <h2 className='custom-font numb'>01</h2>
-            <h6 className='title'></h6>
-            <p>
-            For the safety and comfort of all our guests and in compliance with the authorities in our area, we respectfully request all guests to wear their face masks at all times.
-            </p>
-          </div>
-          <div className='edit-align col-md-4 item-box'>
-            <h2 className='custom-font numb'>02</h2>
+            <h2 className='custom-font numb'>Dress Code</h2>
             <h6 className='title'></h6>
             <p>
             Dress code: Strictly formal<br/>
@@ -31,8 +24,16 @@ function Healthprotocol () {
             </div>
             </p>
           </div>
+
           <div className='edit-align col-md-4 item-box'>
-            <h2 className='custom-font numb'>03</h2>
+            <h2 className='custom-font numb'>Health & Safety</h2>
+            <h6 className='title'></h6>
+            <p>
+            For the safety and comfort of all our guests and in compliance with the authorities in our area, we respectfully request all guests to wear their face masks at all times.
+            </p>
+          </div>
+          <div className='edit-align col-md-4 item-box'>
+            <h2 className='custom-font numb'>Documentation</h2>
             <h6 className='title'></h6>
             <p>
             Help us document our special day by tagging us using our hashtag.

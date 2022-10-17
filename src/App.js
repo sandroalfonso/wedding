@@ -18,7 +18,6 @@ function App() {
       <div id='raman-main'>
         <Header />
         <Where />
-        <RSVP />
         <Gallery />
         <Hotels/>
         <GiftRegistry />
@@ -27,7 +26,7 @@ function App() {
         
         
         <Healthprotocol />
-        
+        <RSVP />
         <Countdown/>
         
         

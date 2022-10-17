@@ -35,7 +35,7 @@ const Countdown = () => {
         }());
     }, [])
   return (
-    <div>
+    <div className='section-padding'>
     <div
       id='countdown'
       className='section-padding bg-img'
