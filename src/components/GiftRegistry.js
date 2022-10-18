@@ -57,7 +57,7 @@ function GiftRegistry () {
             <h2 className='custom-font numb'>04</h2>
             <h6 className='title'>Deliver</h6>
             <p>
-              <li>Drive by or book a third-party courier to pick-up your order at our designated curbside pick-up locations</li>
+              <li>Drive by to pick-up your order at our designated curbside pick-up locations (Any Rustan's branch)</li>
               <li>We can also deliver straight to your home or to the registrant's preferred delivery address</li>
             </p>
           </div>
