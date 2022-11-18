@@ -3,7 +3,7 @@ import Popup from './Popup'
 import {useState} from 'react'
 import SecondModal from './SecondModal';
 import Confirm from './Confirm';
-
+import zoom from '../assets/images/zoom.jpg'
 function RSVP () {
 
   const [openModal, setOpenModal] = useState(false);
@@ -22,73 +22,34 @@ function RSVP () {
         <div className='row justify-content-center'>
           <div className='col-md-6 bg-white p-40'>
             {' '}
-            <h2 className='raman-title text-center'>R.S.V.P</h2>
+            <h2 className='raman-title text-center'>Zoom</h2>
             <br />
-            <p>Will you attend?</p>
-            <div className='footer'>
-      
-              <button onClick={() => {setOpenModal(true); setSecondModal(false)}}>Yes</button>{' '}
-              <button onClick={() => {setSecondModal(true); setOpenModal(false)}}>No</button>{' '}
 
-            
-            {/* <button onClick={() => {
-              setOpenModal(true);
-            }} className='btn buttono' value='Yes' />{' '} */}
-            {/* <input type='submit' className='btn buttono' value='No' />{' '} */}
+            <div className='item col-12 col-md-6'>
+            <div className='whenwhere-img'>
+              {' '}
             
             </div>
-            {openModal && <Popup closeModal={setOpenModal}/>}
-            {openSecondModal && <SecondModal closeSecondModal={setSecondModal}/>}
-            {openConfirm && <Confirm closeConfirm={setConfirm}/>}
-            {/* <form encType='multipart/form-data'  method="post" className='row'>
-              <div className='col-md-12'>
-                <div className='form-group'>
-                  <input
-                    type='text'
-                    className='form-control'
-                    placeholder='Name'
-                    name='name'
-                    required
-                  />{' '}
-                </div>
-              </div>
-              <div className='col-md-12'>
-                <div className='form-group'>
-                  <input type='text' className='form-control' placeholder='Email' name='email'/>{' '}
-                </div>
-              </div>
+            <div className='edit-align content'>
          
-              <div className='col-md-12'>
-                <div className='form-group'>
-                  <textarea
-                    name='message'
-                    id='message'
-                    cols='30'
-                    rows='7'
-                    className='form-control'
-                    placeholder='Message'
-                  
-                  ></textarea>
-                </div>
-              </div>
-              
-              <div className='col-md-12'>
-              <div className='flex'>
-                <div className='form-group'>
-                <input type='radio' className='buttono' value='Yes' />Yes{' '}
-                <input type='radio' className='buttono' value='No' />No{' '}
-                </div>
-              </div>
-              </div>
+              <div className='col-md-12 edit-space'>
+                  <p className='edit-text'>
+                  <a className='download' href='https://us02web.zoom.us/j/81900825676?pwd=bGc1UnNtSm5qaHp4RlZWTk5qQzduQT09&fbclid=IwAR33x3t1Tn5Dqv3CBNDzn8_HyzfS2LAKiATe2zCLu290um9dptfPjTaktSY#success'>
+                    Zoom Link
+                  </a>
+                </p>
 
+                <p className='edit-text'>
+                  Meeting ID: 819 0082 5676
+                </p>
+                <p className='edit-text'>
+                  Passcode: Wedding
+                </p>     
+            </div>
+            </div>
+          </div>
 
-
-              <div className='col-md-12'>
-                <div className='form-group'>
-                  <input type='submit' className='btn buttono' value='Submit' />{' '}
-                </div>
-              </div>
-            </form> */}
+           
           </div>
         </div>
       </div>
