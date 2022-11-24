@@ -26,7 +26,7 @@ function App() {
         
         
         <Healthprotocol />
-        <RSVP />
+        {/* <RSVP /> */}
         <Countdown/>
         
         

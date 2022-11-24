@@ -1,7 +1,7 @@
 import React from 'react'
 import where1 from '../assets/images/church.jpeg'
 import where2 from '../assets/images/glens.jpg'
-
+import zoom from '../assets/images/zoom.jpg'
 function Where () {
   return (
     <div id='whenwhere' className='whenwhere section-padding bg-pink'>
@@ -14,7 +14,7 @@ function Where () {
           </div>
         </div>
         <div className='row'>
-          <div className='item col-12 col-md-6'>
+          <div className='item col-12 col-md-4'>
             <div className='whenwhere-img'>
               {' '}
               <img src={where1} alt='' />
@@ -29,7 +29,7 @@ function Where () {
               </p>
             </div>
           </div>
-          <div className='item col-12 col-md-6'>
+          <div className='item col-12 col-md-4'>
             <div className='whenwhere-img'>
               {' '}
               <img src={where2} alt='' />
@@ -45,6 +45,24 @@ function Where () {
             </div>
           </div>
 
+          <div className='item col-12 col-md-4'>
+            <div className='whenwhere-img'>
+              {' '}
+              <img src={zoom} alt='' />
+            </div>
+            <div className='edit-align content'>
+              <h5 className='raman-title-meta'>Zoom</h5>
+              <a className='download' href='https://us02web.zoom.us/j/81900825676?pwd=bGc1UnNtSm5qaHp4RlZWTk5qQzduQT09&fbclid=IwAR33x3t1Tn5Dqv3CBNDzn8_HyzfS2LAKiATe2zCLu290um9dptfPjTaktSY#success'>
+                <i className='download'></i> <span className='download'>Zoom Link</span>
+              </a>
+              <p>
+                <i className='ti-time'></i> <span className='where-p'>Meeting ID: 819 0082 5676</span>
+              </p>
+              <p>
+              <i className='ti-time'></i> <span className='where-p'>Passcode: Wedding</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

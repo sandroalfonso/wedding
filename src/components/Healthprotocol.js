@@ -2,7 +2,7 @@ import React from 'react'
 import Dresscode from '../assets/images/dresscode.jpg'
 function Healthprotocol () {
   return (
-    <div id='healthprotocol' className='healthprotocol section-padding bg-pink'>
+    <div id='healthprotocol' className='healthprotocol section-padding'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
